@@ -6,19 +6,9 @@ import UserProfile from "./components/UserProfile";
 
 
 function App() {
-    return (
-        <div>
-            <WelcomeMessage />
-            <Header />
-            <MainContent />
-            <Footer />
-        </div>
-    );
-}
-
-function App() {
   return (
     <div>
+      <WelcomeMessage />
       <UserProfile 
         name="Alice" 
         age={25} 
